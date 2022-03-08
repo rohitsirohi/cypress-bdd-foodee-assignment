@@ -1,0 +1,8 @@
+{
+    "name": "Rohit Sirohi",
+    "email": "rohitsirohi@food.ee",
+    "phoneNumber": "(999) 999-9999",
+    "department": "Quality",
+    "notifyByEmail": true,
+    "notifyBySms": true
+}

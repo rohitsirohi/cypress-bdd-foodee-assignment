@@ -1,0 +1,21 @@
+{
+  "name": "foodee-assignment",
+  "version": "1.0.0",
+  "description": "Rohit Sirohi's foodee assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rohit Sirohi",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.1"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
