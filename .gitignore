@@ -5,6 +5,7 @@ cypress/screenshots
 cypress/videos
 cypress/downloadsFolder
 cypress/reports
+cypress/cucumber-json
 cypress/logs
 .history
 .vscode

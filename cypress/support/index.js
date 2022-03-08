@@ -5,8 +5,7 @@
 // This is a great place to put global configuration and
 // behavior that modifies Cypress.
 //
-// You can change the location of this file or turn off
-// automatically serving support files with the
+// You can change the location of this file or turn off// automatically serving support files with the
 // 'supportFile' configuration option.
 //
 // You can read more here:
@@ -18,5 +17,5 @@ import './commands'
 
 // To turn off all uncaught exception handling
 Cypress.on('uncaught:exception', (err, runnable) => {
-    return false
-  })
+  return false
+})

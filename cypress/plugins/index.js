@@ -13,7 +13,9 @@
 // the project's config changing)
 
 const cucumber = require('cypress-cucumber-preprocessor').default
+const generate = require('multiple-cucumber-html-reporter')
 
 module.exports = (on, config) => {
   on('file:preprocessor', cucumber())
 }
+
