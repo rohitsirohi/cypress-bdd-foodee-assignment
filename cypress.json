@@ -1,0 +1,14 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "baseUrl": "https://app-staging.food.ee/team-order/8lW9umVBhBBcTGor",
+    "screenshotOnRunFailure": true,
+    "watchForFileChanges": false,
+    "defaultCommandTimeout": 6000,
+    "retries": {
+        "runMode": 1,
+        "openMode": 0
+    },
+    "testFiles": [
+        "**/*.{feature,features}"
+    ]
+}
